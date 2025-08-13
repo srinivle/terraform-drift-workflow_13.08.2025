@@ -1,0 +1,16 @@
+regions:
+  us-east-1:
+    name: "US East (N. Virginia)"
+    provider: "aws"
+  us-west-1:
+    name: "US West (N. California)"
+    provider: "aws"
+  ap-south-1:
+    name: "Asia Pacific (Mumbai)"
+    provider: "aws"
+  cn-north-1:
+    name: "China (Beijing)"
+    provider: "aws.china"
+  cn-northwest-1:
+    name: "China (Ningxia)"
+    provider: "aws.china"

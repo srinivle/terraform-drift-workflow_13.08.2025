@@ -1,0 +1,21 @@
+accounts:
+  account-1:
+    account_id: "123456789012"
+    role_arn: "arn:aws:iam::123456789012:role/TerraformRole"
+    name: "Primary Account"
+  account-2:
+    account_id: "234567890123"
+    role_arn: "arn:aws:iam::234567890123:role/TerraformRole"
+    name: "Secondary Account"
+  account-3:
+    account_id: "345678901234"
+    role_arn: "arn:aws:iam::345678901234:role/TerraformRole"
+    name: "Tertiary Account"
+  china-account-1:
+    account_id: "456789012345"
+    role_arn: "arn:aws-cn:iam::456789012345:role/TerraformRole"
+    name: "China Region Account 1"
+  china-account-2:
+    account_id: "567890123456"
+    role_arn: "arn:aws-cn:iam::567890123456:role/TerraformRole"
+    name: "China Region Account 2"
